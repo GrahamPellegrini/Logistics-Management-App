@@ -18,8 +18,6 @@
 
 This repository contains a **multi-language Logistics Management System** developed in **Java** and **C++**, submitted for the [CPS2004 Object Oriented Programming](https://www.um.edu.mt/courses/studyunit/CPS2004) unit at the University of Malta.
 
-> 🛠️ The requirements implemented reflect the **September session specification**, which was **more complex and in-depth** than the session actually sat for.
-
 The system handles:
 - Product management with 12+ specialised subclasses
 - Transport services via Factory Pattern
@@ -115,7 +113,7 @@ make
 - 📄 Project Report: [`CPS2004 Assignment 2024.pdf`](CPS2004 Assignment 2024.pdf)
 - 📄 September Requirements Spec: [`cps2004_sept_requirments.pdf`](cps2004_sept_requirments.pdf)
 
-> ✍️ Note: Implementation was based on the **September 2024 specification**, which was **not the intended session**, resulting in an inadvertently more rigorous system.
+> ✍️ > Note : The requirements implemented reflect the **June session specification**, which was **more complex and in-depth** than the **September session specification** actually found in the repository.
 
 ---
 
