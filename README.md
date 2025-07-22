@@ -1,78 +1,127 @@
-# CPS2004 Object Oriented Programming
-# Assignment 2023/24
+<h1 align="center">Logistics Management Application – OOP Coursework</h1>
 
-## Questions answered:
-Question 1 (a, b, c)
+<p align="center">
+  <a href="https://www.um.edu.mt/courses/studyunit/CPS2004">
+    <img src="https://img.shields.io/badge/University%20of%20Malta-CPS2004-blue?style=for-the-badge" alt="CPS2004">
+  </a>
+  <a href="https://github.com/GrahamPellegrini/OOP-Learning">
+    <img src="https://img.shields.io/badge/Project-Logistics%20Management-green?style=for-the-badge" alt="Logistics Management">
+  </a>
+  <a href="https://www.um.edu.mt/profile/markvella">
+    <img src="https://img.shields.io/badge/Supervisor-Dr.%20Mark%20Vella-lightgrey?style=for-the-badge" alt="Supervisor">
+  </a>
+</p>
 
-Question 2 (a, b, c)
+---
 
-Question 3 (a, b, c)
+## 📦 Overview
 
-Question 4 (a)
+This repository contains a **multi-language Logistics Management System** developed in **Java** and **C++**, submitted for the [CPS2004 Object Oriented Programming](https://www.um.edu.mt/courses/studyunit/CPS2004) unit at the University of Malta.
 
+> 🛠️ The requirements implemented reflect the **September session specification**, which was **more complex and in-depth** than the session actually sat for.
 
-## Directory Structure:
+The system handles:
+- Product management with 12+ specialised subclasses
+- Transport services via Factory Pattern
+- Shipment tracking using Decorator Pattern
+- Portable persistence via Protocol Buffers
+- gRPC-based distributed computation for remote stock valuation
 
-Q1_Cpp/: C++ implementation of part 1.
+Each section is modularised and includes both source code and build instructions.
 
-Q1_Java/: Java implementation of part 1.
+---
 
-Q2/: Java implementation for part 2.
+## 📁 Project Structure
 
-Q3/: Java implementation for part 3.
+```
+OOP-Learning/
+├── Q1_Java/          # Java CLI-based product, transport & shipment management system
+│   └── src/
+├── Q1_Cpp/           # C++ CLI system mirroring Java hierarchy
+│   ├── include/
+│   ├── src/
+│   └── CMakeLists.txt
+├── Q2/               # Java enhancements using Factory & Decorator Patterns
+├── Q3/               # Java ProtoBuf serialization logic + Stock Viewer in C++
+├── Q3_Cpp/           # C++ implementation of the Asset Viewer app
+├── Q4/               # gRPC-based Java remote computation service
+├── CPS2004 Assignment 2024.pdf
+├── cps2004_sept_requirments.pdf
+└── README.md
+```
 
-Q3_Cpp/: C++ implementation for part 3.
+---
 
-Q4/: Java implementation for part 4.
+## ⚙️ Technologies
 
+- Java 17 (Maven)
+- C++20 (CMake)
+- Protocol Buffers (Java/C++ serialization)
+- gRPC (Remote asset valuation)
+- UML: Lucidchart Diagrams
 
-## Prerequisites:
-Maven Java
+---
 
-CMake
+## 🧠 Functional Highlights
 
-C++ compiler
+### ✅ Q1 – Core Application (Java & C++)
+- CLI app for managing Products, Transports, Shipments, Customers
+- Product Hierarchy with 12+ subclasses (Books, Electronics, Clothing, etc.)
+- Shipment calculations: total cost, delivery estimates
+- C++ version mirrors Java structure with OOP principles
 
-### Run the Java projects:
+### 🏗️ Q2 – Design Patterns
+- **Factory Pattern** for flexible creation of products and transport objects
+- **Decorator Pattern** for runtime shipment enhancements:
+  - Global discount decorator
+  - Route adjustment decorator
 
-Navigate to the project directory (example cd Q1_Java).
+### 📀 Q3 – Data Persistence
+- Protocol Buffers to serialize/deserialize application state
+- Save/load functionality with `convertToData()` and `convertFromData()`
+- Java → Proto files and code generation
+- **C++ Stock Viewer** using reused CLI logic
 
-Run mvn clean install to build the project.
+### 🌐 Q4 – Distributed Computing with gRPC
+- Java gRPC server for remote calculation of `Stock` annual returns
+- Client implemented in C++ as required by assignment
+- gRPC protos, stub generation, and integration with the Portfolio class
 
-Run the CLI.java class (main class)
+---
 
-### Run the C++ projects:
+## 🧪 Build Instructions
 
-Navigate to the project directory (example cd Q1_Cpp).
+### 🧰 Java (Maven)
+```bash
+cd Q1_Java/
+mvn clean install
+# Run CLI.java main class
+```
 
-Right click on the cmake run it and build all files.
+### 🛠️ C++ (CMake)
+```bash
+cd Q1_Cpp/
+cmake .
+make
+./CLI
+```
 
-Run the CLI.cpp class (main class)
+> Ensure C++20-compatible compiler and Maven 3+ are installed.
 
-## Code Explanation:
+---
 
-For question 1 the use of collection classes are in place to hold the list of base 
-Objects created as well as the methods needed by the cli to manage those objects.
+## 📜 Report & Assignment References
 
+- 📄 Project Report: [`CPS2004 Assignment 2024.pdf`](CPS2004 Assignment 2024.pdf)
+- 📄 September Requirements Spec: [`cps2004_sept_requirments.pdf`](cps2004_sept_requirments.pdf)
 
-For question 2 Factory pattern is evidently used in the transport class as creation of transport is managed through the transport facotry and the respective type parameter.
-As well as the creation for products as the product factory and the sub class factories use type and subtype parameter to create types of products.
-Further more the use of decorator classes as used in shipments hierarchy to ensure that methods such as applying global discount or altering routes
-can be executed at any stage in the shipments process.
+> ✍️ Note: Implementation was based on the **September 2024 specification**, which was **not the intended session**, resulting in an inadvertently more rigorous system.
 
+---
 
-For question 3 a proto file was created with all the neccary messages. Then the respective save() and load() methods where consturtced to be called 
-finally by the CLI save() and load() methods in the system interface. For the serialazion and deseraialiation of the objects to be able to save and load
-to the proto files, respective convert to/from files are found at the base classes.
-The stock viewer class was a simple further implementation on the already implmented product viewer in the product managment methods.
-This lists all the respective informtion about the products in stock and the quantity respective to these products in stock.
+## 👨‍💻 Author
 
-
-For question 4 the required proto file was consturcted with respect to the gRPC required for remote seervice and the generated proto files where achieved.
-
-
-## Contact:
-Graham Pellegrini - graham.pellegrini@um.edu.mt
-
-
-Project Link: https://gitlab.com/GrahamP/oo-programming-assignment-2023_24.git
+**Graham Pellegrini**  
+B.Sc. (Hons.) Computer Engineering  
+University of Malta  
+GitHub: [@GrahamPellegrini](https://github.com/GrahamPellegrini)
