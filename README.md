@@ -14,7 +14,7 @@
 
 ---
 
-## 📦 Overview
+## Overview
 
 This repository contains a **multi-language Logistics Management System** developed in **Java** and **C++**, submitted for the [CPS2004 Object Oriented Programming](https://www.um.edu.mt/courses/studyunit/CPS2004) unit at the University of Malta.
 
@@ -29,7 +29,7 @@ Each section is modularised and includes both source code and build instructions
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 OOP-Learning/
@@ -50,7 +50,7 @@ OOP-Learning/
 
 ---
 
-## ⚙️ Technologies
+## Technologies
 
 - Java 17 (Maven)
 - C++20 (CMake)
@@ -60,43 +60,43 @@ OOP-Learning/
 
 ---
 
-## 🧠 Functional Highlights
+## Functional Highlights
 
-### ✅ Q1 – Core Application (Java & C++)
+### Q1 – Core Application (Java & C++)
 - CLI app for managing Products, Transports, Shipments, Customers
 - Product Hierarchy with 12+ subclasses (Books, Electronics, Clothing, etc.)
 - Shipment calculations: total cost, delivery estimates
 - C++ version mirrors Java structure with OOP principles
 
-### 🏗️ Q2 – Design Patterns
+### Q2 – Design Patterns
 - **Factory Pattern** for flexible creation of products and transport objects
 - **Decorator Pattern** for runtime shipment enhancements:
   - Global discount decorator
   - Route adjustment decorator
 
-### 📀 Q3 – Data Persistence
+### Q3 – Data Persistence
 - Protocol Buffers to serialize/deserialize application state
 - Save/load functionality with `convertToData()` and `convertFromData()`
 - Java → Proto files and code generation
 - **C++ Stock Viewer** using reused CLI logic
 
-### 🌐 Q4 – Distributed Computing with gRPC
+### Q4 – Distributed Computing with gRPC
 - Java gRPC server for remote calculation of `Stock` annual returns
 - Client implemented in C++ as required by assignment
 - gRPC protos, stub generation, and integration with the Portfolio class
 
 ---
 
-## 🧪 Build Instructions
+## Build Instructions
 
-### 🧰 Java (Maven)
+### Java (Maven)
 ```bash
 cd Q1_Java/
 mvn clean install
 # Run CLI.java main class
 ```
 
-### 🛠️ C++ (CMake)
+### C++ (CMake)
 ```bash
 cd Q1_Cpp/
 cmake .
@@ -108,16 +108,16 @@ make
 
 ---
 
-## 📜 Report & Assignment References
+## Report & Assignment References
 
-- 📄 Project Report: [`CPS2004 Assignment 2024.pdf`](CPS2004 Assignment 2024.pdf)
-- 📄 September Requirements Spec: [`cps2004_sept_requirments.pdf`](cps2004_sept_requirments.pdf)
+- Project Report: [`CPS2004 Assignment 2024.pdf`](CPS2004 Assignment 2024.pdf)
+- September Requirements Spec: [`cps2004_sept_requirments.pdf`](cps2004_sept_requirments.pdf)
 
-> ✍️ > Note : The requirements implemented reflect the **June session specification**, which was **more complex and in-depth** than the **September session specification** actually found in the repository.
+> Note : The requirements implemented reflect the **June session specification**, which was **more complex and in-depth** than the **September session specification** actually found in the repository.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Graham Pellegrini**  
 B.Sc. (Hons.) Computer Engineering  
