@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch CLI",
+            "request": "launch",
+            "mainClass": "com.yourorganization.CLI",
+            "projectName": "Q4",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

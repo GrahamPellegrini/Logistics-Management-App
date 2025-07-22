@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+package yourorganization;
+
+import "google/protobuf/timestamp.proto";
+
+
+message Transport {
+    string id = 1;
+    double speed = 2;
+    double cost_per_km = 3;
+}
+
+message Customer {
+    string id = 1;
+    string name = 2;
+    int32 distance_from_warehouse = 3;
+}
+
+message Supplier {
+    string id = 1;
+    string name = 2;
+}
+
+message Product {
+    string id = 1;
+    string name = 2;
+    Supplier supplier = 3;
+    int32 packaging_units = 4;
+    double price = 5;
+    string type = 6;
+}
+
+message Packaging {
+    string type = 1;
+    int32 capacity = 2;
+    double cost = 3;
+}
+
+message PackagedProduct {
+    Product product = 1;
+    Packaging packaging = 2;
+    int32 quantity = 3;
+}
+
+message Shipment {
+    string id = 1;
+    Customer customer = 2;
+    Transport transport = 3;
+    repeated PackagedProduct packaged_products = 4;
+    double total_cost = 5;
+    google.protobuf.Timestamp dispatch_time = 6;
+    google.protobuf.Timestamp delivery_date_time = 7;
+    bool is_dispatched = 8;
+}
+
+message Stock {
+    Product product = 1;
+    int32 quantity = 2;
+}

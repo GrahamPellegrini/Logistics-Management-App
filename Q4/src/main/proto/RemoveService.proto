@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package shipment;
+
+import "google/protobuf/wrappers.proto";
+
+message ShipmentItem {
+    string id = 1;
+    double price = 2;
+    int32 quantity = 3;
+}
+
+message CalculateTotalPriceRequest {
+    repeated ShipmentItem items = 1; // List of shipment items.
+}
+
+message CalculateTotalPriceResponse {
+    double total_price = 1; // The calculated total price.
+}
+
+service ShipmentService {
+    rpc CalculateTotalPrice(CalculateTotalPriceRequest) returns (CalculateTotalPriceResponse);
+}

@@ -1,0 +1,3 @@
+/home/grahampelle/cps2004/build/CMakeFiles/Q1Project.dir
+/home/grahampelle/cps2004/build/CMakeFiles/edit_cache.dir
+/home/grahampelle/cps2004/build/CMakeFiles/rebuild_cache.dir

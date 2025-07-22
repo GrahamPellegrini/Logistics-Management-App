@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/CLI.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/CLI.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/CLI.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/CLI.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Product/Product.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Product/Product.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Product/Product.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Product/Product.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Product/Supplier.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Product/Supplier.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Product/Supplier.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Product/Supplier.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Shipment/Shipment.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Shipment/Shipment.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Shipment/Shipment.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Shipment/Shipment.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Shipment/ShipmentCollection.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Shipment/ShipmentCollection.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Shipment/ShipmentCollection.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Shipment/ShipmentCollection.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Transport/Aircarft.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Transport/Aircarft.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Transport/Aircarft.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Transport/Aircarft.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Transport/Ship.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Transport/Ship.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Transport/Ship.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Transport/Ship.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Transport/Transport.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Transport/Transport.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Transport/Transport.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Transport/Transport.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Transport/TransportCollection.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Transport/TransportCollection.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Transport/TransportCollection.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Transport/TransportCollection.cpp.o"
+},
+{
+  "directory": "/home/grahampelle/cps2004/build",
+  "command": "/usr/bin/g++  -I/home/grahampelle/cps2004/Q1_Cpp/include -I/home/grahampelle/cps2004/Q1_Cpp/include/Product -I/home/grahampelle/cps2004/Q1_Cpp/include/Shipment -I/home/grahampelle/cps2004/Q1_Cpp/include/Transport -g -std=gnu++17 -o CMakeFiles/Q1Project.dir/src/Transport/Truck.cpp.o -c /home/grahampelle/cps2004/Q1_Cpp/src/Transport/Truck.cpp",
+  "file": "/home/grahampelle/cps2004/Q1_Cpp/src/Transport/Truck.cpp",
+  "output": "CMakeFiles/Q1Project.dir/src/Transport/Truck.cpp.o"
+}
+]
